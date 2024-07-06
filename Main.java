@@ -7,5 +7,7 @@ public class Main {
         System.out.println("This is the java program run.");
         System.out.println("This program run on :- " + new Date());
         System.out.println("Again commit");
+        Student student = new Student();
+        student.sayHello();
     }
 }
